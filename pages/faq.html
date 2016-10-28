@@ -1,0 +1,46 @@
+<div class="frequent">
+   <div class="half">
+      <p class="greet">Welcome {{usrname}}<a class="logout" href="#/"> [Logout]</a>
+      </p>
+      <p class="urcart">Your Cart ({{len}})</p>
+   </div>
+   <h1 class="faqh1">FAQ</h1>
+   <div class="q1">
+      <span class="answered">Answered Questions</span>
+      <div class="questions" ng-click="ans1()">How do I create a new account?</div>
+      <p class="faqans" ng-show="showMe1">{{obj1.Query1.Answer1}}</p>
+      <div class="questions" ng-click="ans2()">How can I add my product to favourites?</div>
+      <p class="faqans" ng-show="showMe2">{{obj1.Query2.Answer2}}</p>
+      <div class="questions" ng-click="ans3()">How do I add my product to cart?</div>
+      <p class="faqans" ng-show="showMe3">{{obj1.Query3.Answer3}}</p>
+      <div class="questions" ng-click="ans4()">How do I select more than one quantity of product?</div>
+      <p class="faqans" ng-show="showMe4">{{obj1.Query4.Answer4}}</p>
+      <div class="questions" ng-click="ans5()">How do confirm my product?</div>
+      <p class="faqans" ng-show="showMe5">{{obj1.Query5.Answer5}}</p>
+      <div class="questions" ng-click="ans6()">Where can I find the deal of the day?</div>
+      <p class="faqans" ng-show="showMe6">{{obj1.Query6.Answer6}}</p>
+      <div class="questions" ng-click="ans7()">Where can I find the selected items?</div>
+      <p class="faqans" ng-show="showMe7">{{obj1.Query7.Answer7}}</p>
+   </div>
+   <p class="help">Need more Help?</p>
+   <div class="contact">
+      <div class="mailus">
+         <div class="mail1">
+            <a href="mailto:customersupport@ciez.com"><img src="assets/images/faq/mail.png" alt="mail" title="mail" class="mail">
+            </a>
+         </div>
+         <div class="mail2"><span><a href="mailto:customersupport@ciez.com" class="customer">customersupport@ciez.com</a></span>
+         </div>
+      </div>
+      <div class="mailus">
+         <div class="mail1">
+            <a href="tel:1800-200-305"><img src="assets/images/faq/call.png" alt="mail" title="mail" class="mail">
+            </a>
+         </div>
+         <div class="mail2"><span><a href="tel:1800-200-305" class="customer">1800-200-305></a></span>
+         </div>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div ng-include="'pages/aboutus.html'" ></div>
+</div>

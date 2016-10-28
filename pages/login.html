@@ -1,0 +1,30 @@
+<div class="login">
+    <div class="ordercart">
+        <div class="half">
+            <p class="greet">Welcome GUEST
+            </p>
+            <p class="urcart">Your Cart (0)</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="login">
+        <h1 class="welcome"><span class="wel">Welcome.</span> Please login.</h1>
+        <form name='loginform'>
+            <span class="logindanger" ng-show="loginerror">Username/Password is incorrect</span>
+            <p class="details">
+                <input type="text" required placeholder="Username" class="username" ng-model='username'>
+            </p>
+            <p>
+                <input type="password" required placeholder="Password" class="username" ng-model='loginpwd'>
+            </p>
+            <p>
+                <button class="loginb" ng-click='login()' ng-disabled='!username&&!loginpwd'>LOGIN</button>
+            </p>
+            <div class="newuser">
+                <h2>New to CI Deals?</h2>
+            </div>
+            <p><button class="loginb register" ng-click='register()'>REGISTER</button>
+            </p>
+        </form>
+    </div>
+</div>

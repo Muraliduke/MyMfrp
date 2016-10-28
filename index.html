@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angularMFRP">
+   <head>
+      <meta charset="UTF-8">
+      <title>CI eZ Deals</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <!-- library script files  -->
+      <script src="assets/library/angular.min.js"></script>
+      <script src="assets/library/angular-route.min.js"></script>
+      <script src="assets/library/bootstrap.js"></script>
+      <!--custom app files  -->
+      <script src="app/app.js"></script>
+      <!-- controller files  -->
+      <script src="app/factory/factry.js"></script>
+    <script src="app/services/servce.js"></script>
+      <script src="app/controllers/logincontroller.js"></script>
+      <script src="app/controllers/registercontroller.js"></script>
+      <script src="app/controllers/homecontroller.js"></script>
+      <script src="app/controllers/favcontroller.js"></script>
+      <script src="app/controllers/cartcontroller.js"></script>
+      <script src="app/controllers/confirmcontroller.js"></script>
+      <script src="app/controllers/faqcontroller.js"></script>
+      <script src="app/controllers/scrollcontroller.js"></script>
+      <script src="app/controllers/accordioncontroller.js"></script>
+      <script src="app/services/fav.js"></script>
+	  <script src="app/directives/accord.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <!-- header starts here -->
+         <header>
+            <a href='#home'><img src="assets/images/logo.png" alt="logo" class="logo" />
+            </a>
+            <nav>
+               <ul>
+                  <li><a href="#home" class="fav">Home</a>
+                  <li><a href="#myfav" class="fav">My Favourites</a>
+                  </li>
+                  <li> <a href="#mycart" class="cart">My Cart</a>
+                  </li>
+                  <li><a href="#faq" class="faq">FAQ</a>
+                  </li>
+                  <li class="cc">
+                     <a href="" class="care">Customer care &#9662;</a>
+                     <ul class="dropdown">
+                        <li><a href="" class='drop_head'>TOLL FREE</a>
+                        </li>
+                        <li><a href="tel">1800-200-305</a>
+                        </li>
+                        <li><a href="" class='drop_head'>Email:</a>
+                        </li>
+                        <li><a href="mailto:customersupport@cz.com">customersupport@ciez.com</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <div class="head clearfix">
+         </div>
+         <!-- header ends here -->
+         <!--  accordian  starts here-->
+         <div class="accordian_products">
+            <accordian ng-show='loggedIn'>
+			</accordian>
+         </div>
+         <!--  accordian  ends here-->
+         <!-- scroll top starts here -->
+         <div ng-controller="ScrollController" id="backtop">
+            <a ng-click="scrollup(none)" id="scrollp" ng-show="scrollFlag"><img src="assets/images/back.png" alt="top">
+            </a>
+         </div>
+         <!-- scroll top ends here -->
+         <!-- ng-view starts here -->
+         <div class='loadhtml' ng-view autoscroll="true">
+         </div>
+         <!-- ng-view ends here -->
+         <div class="clearfix">
+         </div>
+         <!-- footer starts here -->
+         <footer>
+            <p class="foot">Powered by CI Team</p>
+            <div class="spritediv">
+               <a  class="sprit1" href="https://www.facebook.com/login/" target="_blank"></a>
+               <a class="sprit2" href="https://www.flickr.com/photos/tags/flicker/ " target="_blank"></a>
+               <a class="sprit3" href="https://www.tumblr.com/" target="_blank"></a>
+               <a  class="sprit4" href="https://twitter.com/" target="_blank"></a>
+            </div>
+         </footer>
+         <!-- footer ends here -->
+      </div>
+   </body>
+</html>

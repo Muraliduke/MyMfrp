@@ -1,0 +1,19 @@
+<div class="favorites">
+   <div class="ordercart">
+      <div class="half">
+         <p class="greet">Welcome {{usrname}}<a class="logout" href="#/"> [Logout]</a>
+         </p>
+         <p class="urcart" ng-model='cartcount'>Your Cart ({{cartcount}})</p>
+      </div>
+      <div class="clear"></div>
+   </div>
+   <div class="products" ng-repeat='obj in fav'>
+      <p class="title_products">{{obj[0]}}</p>
+      <img ng-src="{{obj[1]}}" alt="{{obj[0]}}">
+      <p class="prices">Price:
+         <label class="cost">{{obj[2]}}</label>
+      </p>
+      <button class="buy" ng-click='buynow(this)'>Buy Now!</button>
+      <button class="removefav" ng-click='removefav(this)'>Remove</button>
+   </div>
+</div>

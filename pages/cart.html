@@ -1,0 +1,46 @@
+<div class="totalcart">
+   <div class="ordercart extra">
+      <div class="half">
+         <p class="greet">Welcome {{usrname}}<a class="logout" href="#/"> [Logout]</a>
+         </p>
+         <p class="urcart">Your Cart ({{len}})</p>
+      </div>
+      <div class="clear"></div>
+      <div class="half2">
+         <p class="shoppingcart">Shopping Cart</p>
+      </div>
+   </div>
+   <table class="cartTable">
+      <tr>
+         <th>Select</th>
+         <th>Image</th>
+         <th>Product</th>
+         <th>Unit price</th>
+         <th>QTY</th>
+         <th>Price</th>
+         <th>Remove</th>
+      </tr>
+      <tr ng-repeat='c in cart'>
+         <td>
+            <input type='checkbox' ng-model='checkboxvalue' ng-true-value="'{{c[0]}}'" ng-false-value="''" ng-click='checkfunc(c[0],qnty,c[3])'>
+         </td>
+         <td><img ng-src='{{c[1]}}' class='cartimg' alt="{{c[0]}}">
+         </td>
+         <td>{{c[0]}}</td>
+         <td>{{c[2]}}</td>
+         <td>
+            <input type='number' ng-click='qnty1()' ng-keyup='func(qnty,c[2],c[0])' ng-model='qnty' ng-disabled='checkboxvalue'>
+         </td>
+         <td class='qntyprice' ng-model='qn'>{{qnty*c[3]}}</td>
+         <td><img src='assets/images/red.png' ng-click='removecart()' alt="remove"></td>
+      </tr>
+   </table>
+   <div class="totalsection">
+      <p>Total: Rs.{{total}}</p>
+   </div>
+   <div class='buttons'>
+      <a href="#/home" id="cont">continue shopping</a>
+      <a href="javascript:void(0)" id="confirm" ng-click='confirmorder()'>confirm order</a>
+   </div>
+   <div ng-include="'pages/aboutus.html'" ></div>
+</div>

@@ -1,0 +1,705 @@
+{  
+   "Electronics":{  
+      "Mobiles":[  
+         {  
+            "name":"iphone 5s",
+            "image":"assets/images/Electronics/mobiles/Apple/iphone5sLarge.jpeg",
+            "specification":"128GB,8MP,Panaroma,Fingerprint Sensor",
+            "price":"50,000"
+         },
+         {  
+            "name":"Zenfone-2",
+            "image":"assets/images/Electronics/mobiles/Asus/AsusZenfone-2sLarge.jpeg",
+            "specification":"64GB,13MP,5.5inch,Gorilla Glass",
+            "price":"12,000"
+         },
+         {  
+            "name":"Aqua",
+            "image":"assets/images/Electronics/mobiles/Intex/intex-aquaLarge.jpeg",
+            "specification":"32GB,8MP,5inch,LollyPop",
+            "price":"15,000"
+         },
+         {  
+            "name":"K3 note",
+            "image":"assets/images/Electronics/mobiles/Lenovo/K3 note Large.jpeg",
+            "specification":"16GB,8MP,5.5inch,Kitkat",
+            "price":"14,000"
+         },
+         {  
+            "name":"Canvas",
+            "image":"assets/images/Electronics/mobiles/Micromax/micromaxcanvasLarge.jpeg",
+            "specification":"16GB,8MP,5.5inch,Kitkat",
+            "price":"14,000"
+         },
+         {  
+            "name":"MI",
+            "image":"assets/images/Electronics/mobiles/Redmi/mi-redmiLarge.jpeg",
+            "specification":"16GB,8MP,5.5inch,Kitkat",
+            "price":"14,000"
+         },
+         {  
+            "name":"Galaxy S7",
+            "image":"assets/images/Electronics/mobiles/Samsung/Samsunggalaxys7Large.jpeg",
+            "specification":"16GB,16MP,5.5inch,Kitkat",
+            "price":"20,000"
+         }
+      ],
+      "Laptop":[  
+         {  
+            "name":"Aspire",
+            "image":[  
+               "assets/images/Electronics/Laptop/acer/acer-aspire1.jpeg",
+               "assets/images/Electronics/Laptop/acer/acer-aspire2.jpeg",
+               "assets/images/Electronics/Laptop/acer/acer-aspire3.jpeg",
+               "assets/images/Electronics/Laptop/acer/acer-aspire4.jpeg",
+               "assets/images/Electronics/Laptop/acer/acer-aspire5.jpeg"
+            ],
+            "specification":"1.83GHz Intel Atom Z3735F processor,2GB DDR3 RAM,32GB flash storage,Windows 10 operating system",
+            "Price":"35,000"
+         },
+         {  
+            "name":"Macbook",
+            "image":[  
+               "assets/images/Electronics/Laptop/apple/macbook1.jpeg",
+               "assets/images/Electronics/Laptop/apple/macbook2.jpeg",
+               "assets/images/Electronics/Laptop/apple/macbook3.jpeg",
+               "assets/images/Electronics/Laptop/apple/macbook4.jpeg"
+            ],
+            "specification":"2GHz Intel processor,3GB DDR3 RAM,64GB flash storage,MAC operating system",
+            "Price":"80,000"
+         },
+         {  
+            "name":"Notebook",
+            "image":[  
+               "assets/images/Electronics/Laptop/asus/asus notbook1.jpeg",
+               "assets/images/Electronics/Laptop/asus/asus notbook2.jpeg",
+               "assets/images/Electronics/Laptop/asus/asus notbook3.jpeg",
+               "assets/images/Electronics/Laptop/asus/asus notbook4.jpeg",
+               "assets/images/Electronics/Laptop/asus/asus notbook5.jpeg"
+            ],
+            "specification":"1.5GHz Intel processor,2GB DDR3 RAM,32GB flash storage,Windows 10 operating system",
+            "Price":"30,000"
+         },
+         {  
+            "name":"Inspiron",
+            "image":[  
+               "assets/images/Electronics/Laptop/Dell/dell-insipron1.jpeg",
+               "assets/images/Electronics/Laptop/Dell/dell-insipron2.jpeg",
+               "assets/images/Electronics/Laptop/Dell/dell-insipron3.jpeg",
+               "assets/images/Electronics/Laptop/Dell/dell-insipron4.jpeg",
+               "assets/images/Electronics/Laptop/Dell/dell-insipron5.jpeg"
+            ],
+            "specification":"2GHz Intel processor,3GB DDR3 RAM,64GB flash storage,Windows 10 operating system",
+            "Price":"45,000"
+         },
+         {  
+            "name":"Lenovo Notebook",
+            "image":[  
+               "assets/images/Electronics/Laptop/HP/hp-notebook1.jpeg",
+               "assets/images/Electronics/Laptop/HP/hp-notebook2.jpeg",
+               "assets/images/Electronics/Laptop/HP/hp-notebook3.jpeg",
+               "assets/images/Electronics/Laptop/HP/hp-notebook4.jpeg",
+               "assets/images/Electronics/Laptop/HP/hp-notebook5.jpeg"
+            ],
+            "specification":"2GHz Intel processor,3GB DDR3 RAM,32GB flash storage,Windows 10 operating system",
+            "Price":"50,000"
+         },
+         {  
+            "name":"HP Notebook",
+            "image":[  
+               "assets/images/Electronics/Laptop/Lenovo/lenovo-notebook1.jpeg",
+               "assets/images/Electronics/Laptop/Lenovo/lenovo-notebook1.jpeg",
+               "assets/images/Electronics/Laptop/Lenovo/lenovo-notebook1.jpeg",
+               "assets/images/Electronics/Laptop/Lenovo/lenovo-notebook1.jpeg",
+               "assets/images/Electronics/Laptop/Lenovo/lenovo-notebook1.jpeg"
+            ],
+            "specification":"3GHz Intel processor,3GB DDR3 RAM,64GB flash storage,Windows 10 operating system",
+            "Price":"55,000"
+         }
+      ],
+      "Headphones":[  
+         {  
+            "name":"Envent",
+            "image":[  
+               "assets/images/Electronics/headphones/Envent/envent1.jpeg",
+               "assets/images/Electronics/headphones/Envent/envent2.jpeg",
+               "assets/images/Electronics/headphones/Envent/envent3.jpeg",
+               "assets/images/Electronics/headphones/Envent/envent4.jpeg",
+               "assets/images/Electronics/headphones/Envent/envent5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"1000"
+         },
+         {  
+            "name":"JBL",
+            "image":[  
+               "assets/images/Electronics/headphones/JBL/jbl1.jpeg",
+               "assets/images/Electronics/headphones/JBL/jbl2.jpeg",
+               "assets/images/Electronics/headphones/JBL/jbl3.jpeg",
+               "assets/images/Electronics/headphones/JBL/jbl4.jpeg",
+               "assets/images/Electronics/headphones/JBL/jbl5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"1200"
+         },
+         {  
+            "name":"Philips",
+            "image":[  
+               "assets/images/Electronics/headphones/Philips/philips1.jpeg",
+               "assets/images/Electronics/headphones/Philips/philips2.jpeg",
+               "assets/images/Electronics/headphones/Philips/philips3.jpeg",
+               "assets/images/Electronics/headphones/Philips/philips4.jpeg",
+               "assets/images/Electronics/headphones/Philips/philips5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"1500"
+         },
+         {  
+            "name":"Sennheiser1",
+            "image":[  
+               "assets/images/Electronics/headphones/Senheiser/sennheiser1.jpeg",
+               "assets/images/Electronics/headphones/Senheiser/sennheiser2.jpeg",
+               "assets/images/Electronics/headphones/Senheiser/sennheiser3.jpeg",
+               "assets/images/Electronics/headphones/Senheiser/sennheiser4.jpeg",
+               "assets/images/Electronics/headphones/Senheiser/sennheiser5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"1700"
+         },
+         {  
+            "name":"skullcandy",
+            "image":[  
+               "assets/images/Electronics/headphones/Skullcandy/skullcandy1.jpeg",
+               "assets/images/Electronics/headphones/Skullcandy/skullcandy2.jpeg",
+               "assets/images/Electronics/headphones/Skullcandy/skullcandy3.jpeg",
+               "assets/images/Electronics/headphones/Skullcandy/skullcandy4.jpeg",
+               "assets/images/Electronics/headphones/Skullcandy/skullcandy5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"2000"
+         },
+         {  
+            "name":"Sony",
+            "image":[  
+               "assets/images/Electronics/headphones/Sony/sony1.jpeg",
+               "assets/images/Electronics/headphones/Sony/sony2.jpeg",
+               "assets/images/Electronics/headphones/Sony/sony3.jpeg",
+               "assets/images/Electronics/headphones/Sony/sony4.jpeg",
+               "assets/images/Electronics/headphones/Sony/sony5.jpeg"
+            ],
+            "specification":"Handsfree,bluetooth",
+            "price":"2500"
+         }
+      ],
+      "Tablets":[  
+         {  
+            "name":"Apple",
+            "image":[  
+               "assets/images/Electronics/Tablets/Apple/appleLarge.jpeg",
+               "assets/images/Electronics/Tablets/Apple/appleSmall.jpeg"
+            ],
+            "specification":"Wifi,64gb,7inch",
+            "price":"45,000"
+         },
+         {  
+            "name":"Asus",
+            "image":[  
+               "assets/images/Electronics/Tablets/Asus/asusLarge.jpeg",
+               "assets/images/Electronics/Tablets/Asus/asusSmall.jpeg"
+            ],
+            "specification":"Wifi,62gb,7.5inch",
+            "price":"25,000"
+         },
+         {  
+            "name":"iball",
+            "image":[  
+               "assets/images/Electronics/Tablets/iball/iballLarge.jpeg",
+               "assets/images/Electronics/Tablets/iball/iballSmall.jpeg"
+            ],
+            "specification":"Wifi,32gb,7.5inch",
+            "price":"30,000"
+         },
+         {  
+            "name":"Lenovo",
+            "image":[  
+               "assets/images/Electronics/Tablets/Lenovo/LenovoLarge.jpeg",
+               "assets/images/Electronics/Tablets/Lenovo/LenovoSmall.jpeg"
+            ],
+            "specification":"Wifi,32gb,7.5inch",
+            "price":"35,000"
+         },
+         {  
+            "name":"Micromax",
+            "image":[  
+               "assets/images/Electronics/Tablets/Micromax/micromaxLarge.jpeg",
+               "assets/images/Electronics/Tablets/Micromax/micromaxSmall.jpeg"
+            ],
+            "specification":"Wifi,32gb,7inch",
+            "price":"25,000"
+         },
+         {  
+            "name":"Samsung",
+            "image":[  
+               "assets/images/Electronics/Tablets/Samsung/samsungLarge.jpeg",
+               "assets/images/Electronics/Tablets/Samsung/samsungSmall.jpeg"
+            ],
+            "specification":"Wifi,32gb,7inch",
+            "price":"38,000"
+         }
+      ],
+      "TV":[  
+         {  
+            "name":"LG",
+            "image":[  
+               "assets/images/Electronics/Tv/lg/lg1.jpeg",
+               "assets/images/Electronics/Tv/lg/lg2.jpeg",
+               "assets/images/Electronics/Tv/lg/lg3.jpeg",
+               "assets/images/Electronics/Tv/lg/lg4.jpeg",
+               "assets/images/Electronics/Tv/lg/lg5.jpeg"
+            ],
+            "specification":"81.2 centimeters,Connectivity - Input : HDMI*1, USB*1, RF *1, AV In *1, Output : AV output * 1",
+            "price":"25,000"
+         },
+         {  
+            "name":"Micromax",
+            "image":[  
+               "assets/images/Electronics/Tv/micromax/micromax1.jpeg",
+               "assets/images/Electronics/Tv/micromax/micromax2.jpeg",
+               "assets/images/Electronics/Tv/micromax/micromax3.jpeg",
+               "assets/images/Electronics/Tv/micromax/micromax4.jpeg",
+               "assets/images/Electronics/Tv/micromax/micromax5.jpeg"
+            ],
+            "specification":"80 centimeters HD Ready,Connectivity - Input: 2*HDMI, 1*USB,LED 1366 x 768",
+            "price":"27,000"
+         },
+         {  
+            "name":"Onida",
+            "image":[  
+               "assets/images/Electronics/Tv/onida/onida1.jpeg",
+               "assets/images/Electronics/Tv/onida/onida2.jpeg",
+               "assets/images/Electronics/Tv/onida/onida3.jpeg",
+               "assets/images/Electronics/Tv/onida/onida4.jpeg",
+               "assets/images/Electronics/Tv/onida/onida5.jpeg"
+            ],
+            "specification":"55 centimeters full HD,Supported Audio Format: MP3, WMA (v2 up to v9.2),LED 1920 x 1080",
+            "price":"30,000"
+         },
+         {  
+            "name":"Panasonic",
+            "image":[  
+               "assets/images/Electronics/Tv/panasonic/panasonic1.jpeg",
+               "assets/images/Electronics/Tv/panasonic/panasonic2.jpeg",
+               "assets/images/Electronics/Tv/panasonic/panasonic3.jpeg",
+               "assets/images/Electronics/Tv/panasonic/panasonic4.jpeg",
+               "assets/images/Electronics/Tv/panasonic/panasonic5.jpeg"
+            ],
+            "specification":"HD Ready (Resolution: 1366x768p),Connectivity ports: 2 HDMI, 2 USB,Special Features: USB to USB Data Transfer, Bluetooth Connectivity, Inbuilt Games, Inbuilt Sound Amplifier",
+            "price":"35,000"
+         },
+         {  
+            "name":"Samsung",
+            "image":[  
+               "assets/images/Electronics/Tv/samsung/samsung1.jpeg",
+               "assets/images/Electronics/Tv/samsung/samsung2.jpeg",
+               "assets/images/Electronics/Tv/samsung/samsung3.jpeg",
+               "assets/images/Electronics/Tv/samsung/samsung4.jpeg",
+               "assets/images/Electronics/Tv/samsung/samsung5.jpeg"
+            ],
+            "specification":"Features Eco Saving Plus, Eye Saver Mode, Flicker Free and Game Mode,Color support: 16.7M,OS Compatibility: Windows and Mac",
+            "price":"40,000"
+         },
+         {  
+            "name":"Sony",
+            "image":[  
+               "assets/images/Electronics/Tv/sony/sony1.jpeg",
+               "assets/images/Electronics/Tv/sony/sony2.jpeg"
+            ],
+            "specification":"Viewing area: 476.64 x 268.11 mm,Viewing Angle: H160/V150,Contrast Ratio: 100000/1 ",
+            "price":"50,000"
+         }
+      ]
+   },
+   "Men":{  
+      "Shirt":[  
+         {  
+            "name":"Lee",
+            "image":"assets/images/men/Shirt/Lee/first.jpeg",
+            "specification":"Wrinkle Free,Cotton,Large",
+            "price":"1,000"
+         },
+         {  
+            "name":"PeterEngland",
+            "image":"assets/images/men/Shirt/PeterEngland/first.jpeg",
+            "specification":"Wrinkle Free,Cotton,Large",
+            "price":"2,000"
+         },
+         {  
+            "name":"AllenSolly",
+            "image":"assets/images/men/Shirt/AllenSolly/first.jpeg",
+            "specification":"Wrinkle Free,Cotton,Large",
+            "price":"2,000"
+         }
+      ],
+      "TShirt":[  
+         {  
+            "name":"Lee",
+            "image":[  
+               "assets/images/men/T-Shirt/Lee/first.jpeg",
+               "assets/images/men/T-Shirt/Lee/second.jpeg"
+            ],
+            "specification":"Wrinkle Free,Cotton,Large",
+            "price":"1,000"
+         },
+         {  
+            "name":"PeterEngland",
+            "image":[  
+               "assets/images/men/T-Shirt/PeterEngland/first.jpeg",
+               "assets/images/men/T-Shirt/PeterEngland/second.jpeg"
+            ],
+            "specification":"Wrinkle Free,Teri-cotton,Medium",
+            "price":"2,000"
+         },
+         {  
+            "name":"AllenSolly",
+            "image":[  
+               "assets/images/men/T-Shirt/AllenSolly/first.jpeg",
+               "assets/images/men/T-Shirt/AllenSolly/second.jpeg"
+            ],
+            "specification":"100% Cotton,Large,Double side Wearable",
+            "price":"2,000"
+         }
+      ],
+      "Sunglass":[  
+         {  
+            "name":"FastTrack",
+            "image":[  
+               "assets/images/men/Sunglass/FastTrack/first.jpeg",
+               "assets/images/men/Sunglass/FastTrack/second.jpeg"
+            ],
+            "specification":"Lens Color : Black;Frame Color : Black,Lens Size : 6 x 5cm / 2.4 (L*W);Arm Length : 12cm / 4.9",
+            "price":"1,000"
+         },
+         {  
+            "name":"Rayban",
+            "image":[  
+               "assets/images/men/Sunglass/Rayban/first.jpeg",
+               "assets/images/men/Sunglass/Rayban/second.jpeg"
+            ],
+            "specification":"Frame/Arm Color : Black;Lens Color : Dark Green,Lens Dia. : 4.5 cm / 1.77,Bridge Width : 2 cm / 0.8",
+            "price":"2,000"
+         },
+         {  
+            "name":"Vincent",
+            "image":[  
+               "assets/images/men/Sunglass/Vincent/first.jpeg",
+               "assets/images/men/Sunglass/Vincent/second.jpeg"
+            ],
+            "specification":"Material : Frame: MetalArm: Plastic;Color ,Net Weight : 26g;Package Content : 1 x Sunglasses,Frame Width : 14cm/ 5.5",
+            "price":"2,000"
+         }
+      ],
+      "Watches":[  
+         {  
+            "name":"FastTrack",
+            "image":"assets/images/men/Watches/FastTrack/first.jpeg",
+            "specification":"Brand new alloy hollow dial stealth army led watch for men and boys ,Analogue Watch,Super Smooth Strap",
+            "price":"1,000"
+         },
+         {  
+            "name":"Swatch",
+            "image":"assets/images/men/Watches/Swatch/first.jpeg",
+            "specification":"Strap Type : Rubber ,Strap material : Steel,Display : Analog-Digital",
+            "price":"2,000"
+         },
+         {  
+            "name":"Sonata",
+            "image":"assets/images/men/Watches/Sonata/first.jpeg",
+            "specification":"Dial Color: Black, Case Shape: Rectangular, Dial Glass material: Mineral ,Water Resistance Depth: 30 meters,Watch Movement Type: Quartz, Watch Display Type: Analog",
+            "price":"2,000"
+         }
+      ],
+      "Footwear":[  
+         {  
+            "name":"Woodland",
+            "image":[  
+               "assets/images/men/Footwear/Woodland/first.jpeg",
+               "assets/images/men/Footwear/Woodland/second.jpeg"
+            ],
+            "specification":"Material : Synthetic Leather,Sole : Airmix,Occasion : Casual",
+            "price":"10,000"
+         },
+         {  
+            "name":"Fils",
+            "image":[  
+               "assets/images/men/Footwear/Fils/first.jpeg",
+               "assets/images/men/Footwear/Fils/second.jpeg"
+            ],
+            "specification":"Slip Resistance,Daily Wear,Good for All Season",
+            "price":"3,000"
+         },
+         {  
+            "name":"Puma",
+            "image":[  
+               "assets/images/men/Footwear/Puma/first.jpeg",
+               "assets/images/men/Footwear/Puma/second.jpeg"
+            ],
+            "specification":"Material: Polyurethane ,Closure Type: Hook & Loop,Toe Style: Open Toe",
+            "price":"7,000"
+         }
+      ]
+   },
+   "Women":{  
+      "Chudi":[  
+         {  
+            "name":"Anouk",
+            "image":[  
+               "assets/images/women/Chudi/Anouk/first.jpeg",
+               "assets/images/women/Chudi/Anouk/second.jpeg"
+            ],
+            "specification":"Style:- Casual Wear & Evening Wear ,Wash Care : Dry Clean Or Hand Wash In Cold Water.,Fit Type: Regular Fit",
+            "price":"1,000"
+         },
+         {  
+            "name":"Libas",
+            "image":[  
+               "assets/images/women/Chudi/Libas/first.jpeg",
+               "assets/images/women/Chudi/Libas/second.jpeg"
+            ],
+            "specification":"Fabric:- Top - Georgette with inner , Bottom - Santoon, Dupatta - Net ,Style:- Casual Wear & Evening Wear,Wash Care : Dry Clean Or Hand Wash In Cold Water.",
+            "price":"2,000"
+         },
+         {  
+            "name":"Aurelia",
+            "image":[  
+               "assets/images/women/Chudi/Aurelia/first.jpeg",
+               "assets/images/women/Chudi/Aurelia/second.jpeg"
+            ],
+            "specification":"Fabric:- Top - Net,Dupatta - Net ,Fit Type: Regular Fit,Embroidery: Lace",
+            "price":"2,000"
+         }
+      ],
+      "Saree":[  
+         {  
+            "name":"Samuthrika",
+            "image":"assets/images/women/Saree/Samuthrika/first.jpeg",
+            "specification":"Western Piece,Fancy Look,Genuine Quality",
+            "price":"1,000"
+         },
+         {  
+            "name":"Pavechas",
+            "image":"assets/images/women/Saree/Pavechas/first.jpeg",
+            "specification":"Fit Type: Regular Fit ,Fancy Look,Wash Care : Dry Clean Or Hand Wash In Cold Water.",
+            "price":"2,000"
+         },
+         {  
+            "name":"Bhavi",
+            "image":"assets/images/women/Saree/Bhavi/first.jpeg",
+            "specification":"Fit Type: Regular Fit ,Fancy Look,Embroidery: Lace",
+            "price":"2,000"
+         }
+      ],
+      "Bags":[  
+         {  
+            "name":"Calvinklein",
+            "image":[  
+               "assets/images/women/Bags/Calvinklein/first.jpeg",
+               "assets/images/women/Bags/Calvinklein/second.jpeg"
+            ],
+            "specification":"Canvas material ecru colored tote bag ,15.75 inches height X 14 inches length X 1.5 inches width,Zip closure with double handle",
+            "price":"1,000"
+         },
+         {  
+            "name":"Coach",
+            "image":[  
+               "assets/images/women/Bags/Coach/first.jpeg",
+               "assets/images/women/Bags/Coach/second.jpeg"
+            ],
+            "specification":"Dimensions: 40 cm long, 30 cm of height, width of 2 cm ,Strap: Padded Strap, Closure: Zip Closure,Capacity & Pockets: 2 Compartment & 2 Inner pocket",
+            "price":"2,000"
+         },
+         {  
+            "name":"Hidesign",
+            "image":[  
+               "assets/images/women/Bags/Hidesign/first.jpeg",
+               "assets/images/women/Bags/Hidesign/second.jpeg"
+            ],
+            "specification":"Dimensions: 40 cm long, 30 cm of height, width of 2 cm ,Outer Material: PU, Inner Material: Satin, Color: Beige, Design: Criss Cross Handbags, Ample Spac,Capacity & Pockets: 2 Compartment & 2 Inner pocket",
+            "price":"2,000"
+         }
+      ],
+      "Watches":[  
+         {  
+            "name":"FastTrack",
+            "image":[  
+               "assets/images/women/Watches/FastTrack/first.jpeg",
+               "assets/images/women/Watches/FastTrack/second.jpeg"
+            ],
+            "specification":"Strap Material - Stainless Steel,Watch Case Diamond Studded,1 Year manufacturer Warranty",
+            "price":"1,000"
+         },
+         {  
+            "name":"Sonata",
+            "image":[  
+               "assets/images/women/Watches/Sonata/first.jpeg",
+               "assets/images/women/Watches/Sonata/second.jpeg"
+            ],
+            "specification":"Display: Analog,Fully Adjustable strap with alloy buckle,Very stylish looking watch. Best of any occasion and gift",
+            "price":"2,000"
+         },
+         {  
+            "name":"Titan",
+            "image":[  
+               "assets/images/women/Watches/Titan/first.jpeg",
+               "assets/images/women/Watches/Titan/second.jpeg"
+            ],
+            "specification":"Display: Analogue, Movement: Quartz ,Band material: Ceramic,KT Fashion is the authorized seller of Brand IIK Collection and providing warranty of 12 months.",
+            "price":"2,000"
+         }
+      ],
+      "Footwear":[  
+         {  
+            "name":"Woodland",
+            "image":[  
+               "assets/images/women/Footwear/Woodland/first.jpeg",
+               "assets/images/women/Footwear/Woodland/second.jpeg"
+            ],
+            "specification":"Premium Quality,Durable,Stylish",
+            "price":"10,000"
+         },
+         {  
+            "name":"Fils",
+            "image":[  
+               "assets/images/women/Footwear/Fils/first.jpeg",
+               "assets/images/women/Footwear/Fils/second.jpeg"
+            ],
+            "specification":"Premium Quality,Comfortable Sole,Trendy Design",
+            "price":"3,000"
+         },
+         {  
+            "name":"Puma",
+            "image":[  
+               "assets/images/women/Footwear/Puma/first.jpeg",
+               "assets/images/women/Footwear/Puma/second.jpeg"
+            ],
+            "specification":"Materia: faux leather,life style: casual,Heel type: flat, heel Height: 0.5 inch",
+            "price":"7,000"
+         }
+      ]
+   },
+   "Furnitures":[  
+      {  
+         "name":"Woodpecker",
+         "image":"assets/images/furnitures/sofa/sofa1/first.jpeg",
+         "specification":"Approximate inflated size 101,Weight capacity 880 lbs.,A 2-in-1 valve with extra-wide openings ensures fast inflating and deflating",
+         "price":"20,000"
+      },
+      {  
+         "name":"Pepperfry",
+         "image":"assets/images/furnitures/sofa/sofa2/first.jpeg",
+         "specification":"Product Dimensions: Length (64 inches), Width (26 inches), Height (34 inches),Seating Capacity: Five Seat,Color: Brown, Finish: Teak, Style: Asian",
+         "price":"22,000"
+      },
+      {  
+         "name":"Modfurn",
+         "image":"assets/images/furnitures/sofa/sofa3/first.jpeg",
+         "specification":"Product Dimensions: Length (27.51 inches), Width (70.74 inches), Height (17.69 inches),Primary Material: Wood, Upholstery Material: Fabric,Seating Capacity: Five Seat",
+         "price":"24,000"
+      },
+      {  
+         "name":"JFA",
+         "image":"assets/images/furnitures/sofa/sofa4/first.jpeg",
+         "specification":"Product Dimensions: Length (34.98 inches), Width (56.98 inches), Height (35.37 inches),Primary Material: Wood, Upholstery Material: Fabric,Color: Marble Brown, Style: Contemporary",
+         "price":"25,000"
+      },
+      {  
+         "name":"Fabfurnish",
+         "image":"assets/images/furnitures/sofa/sofa5/first.jpeg",
+         "specification":"Seating Capacity: Six Seat,Primary Material: Wood, Upholstery Material: Fabric, Style: Contemporary",
+         "price":"25,000"
+      }
+   ],
+   "Books":[  
+      {  
+         "name":"Ex-a-Twisted-LoveStory",
+         "image":"assets/images/Library/books/book1/Ex-a-Twisted-LoveStoryLarge.jpeg",
+         "specification":"In a circumstance where a  girl approaches you and says that she was your ex what you will do? The only questions that'll revolve around your mind will be Have we met earlier? What is her motive? What's going on?",
+         "price":"150"
+      },
+      {  
+         "name":"ForgetMeNotStranger",
+         "image":"assets/images/Library/books/book2/ForgetMeNotStrangerLarge.jpeg",
+         "specification":"I’m Rivanah Bannerjee, 23/F/Mumbai. Some of you might already know how my life is on a razor edge. Those of you who don’t, just know this: I may be killed soon by the Stranger I don’t know who or what he is: a ghost, a person or a figment of my imagination?",
+         "price":"250"
+      },
+      {  
+         "name":"hedon",
+         "image":"assets/images/Library/books/book3/hedonLarge.jpeg",
+         "specification":"Tara Mullick falls in love with Jay Dhillon at first encounter. Her pull toward the older, brilliant billionaire is an unyielding force that carries her through Catholic school in Kolkata to four years of recklessness at college in the American Midwest,Things come to a head upon Tara’s return to India",
+         "price":"350"
+      },
+      {  
+         "name":"originals",
+         "image":"assets/images/Library/books/book4/originalsLarge.jpeg",
+         "specification":"How can we create new innovation, policies and performs without endangering it all?Adam Grant demonstrates how to improve the world by advocating novel ideas and ethics that go against the grain, battling conformity and kicking old-fashioned customs",
+         "price":"200"
+      },
+      {  
+         "name":"Sheswipedrightintomyheart",
+         "image":"assets/images/Library/books/book5/SheswipedrightintomyheartLarge.jpeg",
+         "specification":"Love, relationship and friendships are not defined for our generation,The boundaries between them are often blurred and the result is often full of confusion and tears",
+         "price":"250"
+      }
+   ],
+   "Deals":[  
+      {  
+         "day":"monday",
+         "name":"Woodland",
+         "image":"assets/images/men/Footwear/Woodland/first.jpeg",
+         "specification":"Material : Synthetic Leather,Sole : Airmix,Occasion : Casual",
+         "price":"8,000"
+      },
+      {  
+         "day":"tuesday",
+         "name":"Samsung",
+         "image":"assets/images/Electronics/Tablets/Samsung/samsungLarge.jpeg",
+         "specification":"Wifi,32gb,7inch",
+         "price":"30,400"
+      },
+      {  
+         "day":"Wednesday",
+         "name":"apple",
+         "image":"assets/images/Electronics/Tablets/Apple/appleLarge.jpeg",
+         "specification":[  
+            "Wifi,64gb,7inch"
+         ],
+         "price":"36,000"
+      },
+      {  
+         "day":"Thursday",
+         "name":"Rayban",
+         "image":"assets/images/men/Sunglass/Rayban/first.jpeg",
+         "price":"1600"
+      },
+      {  
+         "day":"Friday",
+         "name":"Titan",
+         "image":"assets/images/women/Watches/Titan/first.jpeg",
+         "specification":"Display: Analogue, Movement: Quartz ,Band material: Ceramic,KT Fashion is the authorized seller of Brand IIK Collection and providing warranty of 12 months.",
+         "price":"1600"
+      },
+      {  
+         "day":"Saturday",
+         "name":"Libas",
+         "image":"assets/images/women/Chudi/Libas/first.jpeg",
+         "specification":"Fabric:- Top - Georgette with inner , Bottom - Santoon, Dupatta - Net ,Style:- Casual Wear & Evening Wear,Wash Care : Dry Clean Or Hand Wash In Cold Water.",
+         "price":"1600"
+      },
+      {  
+         "day":"Sunday",
+         "name":"AllenSolly",
+         "image":"assets/images/men/T-Shirt/AllenSolly/first.jpeg",
+         "specification":"100% Cotton,Large,Double side Wearable",
+         "price":"1600"
+      }
+   ]
+}

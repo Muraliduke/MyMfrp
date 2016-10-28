@@ -1,0 +1,70 @@
+<div class="body">
+    <form name="resourceform" id="app-form" class="app-form" ng-show="register" novalidate role="form">
+        <p class='regheader'>Register</p>
+        <fieldset>
+            <section>
+
+                <!-- username -->
+                <label class="label"><span class="star">*</span>UserName</label>
+                <span class="label label-danger" ng-show="submitted && resourceform.usrName.$error.required">Enter User Name</span>
+                <span class="label label-danger" ng-show="resourceform.usrName.$error.minlength || resourceform.usrName.$error.maxlength">User Name length should be 4-10</span>
+                <label class="input">
+                    <input type="text" class="form-control" name="usrName" ng-model="usrName" placeholder="User Name" ng-minlength="4" ng-maxlength="10" required>
+                </label>
+
+
+                <!-- email id -->
+                <label class="label"><span class="star">*</span>Email ID</label>
+                <span class="label label-danger" ng-show="submitted && resourceform.email.$error.required">Enter Email id</span>
+                <span class="label label-danger" ng-show="submitted && resourceform.email.$invalid && !resourceform.email.$pristine">Enter Correct email id</span>
+                <span class="label label-danger" ng-show="emailerror">Enter Correct email id</span>
+                <label class="input">
+                    <input type="email" ng-model="email" name="email" placeHolder="Email id" required>
+                </label>
+
+
+                <!-- mobile number -->
+                <label class="label"><span class="star">*</span>Contact Number</label>
+                <span class="label label-danger" ng-show="submitted && resourceform.contactNumber.$error.required">Enter Contact Number</span>
+                <span class="label label-danger" ng-show="resourceform.contactNumber.$error.minlength || resourceform.contactNumber.$error.maxlength">Contact Number length should be 10</span>
+                <label class="input">
+                    <input type="number" ng-model="contactNumber" name="contactNumber" placeHolder="Contact Number" ng-minlength="10" ng-maxlength="10" required>
+                </label>
+
+
+                <!-- password -->
+                <label class="label"><span class="star">*</span>Password</label>
+                <span class="label label-danger" ng-show="submitted && resourceform.pwd.$error.required">Enter Password</span>
+                <span class="label label-danger" ng-show="pwderror">Enter correct Password</span>
+                <label class="input">
+                    <input type="password" ng-model="pwd" name="pwd" placeHolder="Password" title="Should Contain A-Z,0-9,a-z,special Characters(@,$,%,#,&,%)" required>
+                </label>
+
+                <!-- confirm password -->
+                <label class="label"><span class="star">*</span>Confirm Password</label>
+                <span class="label label-danger" ng-show="submitted && resourceform.confirmpwd.$error.required">Confirm Password</span>
+                <span class="label label-danger" ng-show="confirmpwderror">Password doesnt Match</span>
+                <label class="input">
+                    <input type="password" ng-model="confirmpwd" name="confirmpwd" placeHolder="Confirm Password" required>
+                </label>
+
+
+                <!-- captcha -->
+                <div class="cap_block">
+                    <img src="assets/images/cap1.png" alt="captcha" id="cap">
+                </div>
+                <div class="words">
+                    <input type="text" id="word" ng-model="captchawrd">
+                    <img src="assets/images/refresh.png" alt="reload" class="reload" ng-click="load()">
+                </div>
+
+
+            </section>
+        </fieldset>
+        <div class="primaryAction">
+            <button type="submit" class="button button-primary" ng-click="saveResourceInfo(resourceform)">Submit</button>
+            <button type="button" class="button button-secondary" ng-click="cancel()">Cancel</button>
+            <button type="button" class="button button-secondary" ng-click="reset(resourceform)">Reset</button>
+        </div>
+    </form>
+</div>
